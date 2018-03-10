@@ -1,0 +1,32 @@
+<form class="form-vertical">
+    <div class="form-group">
+        <div class="control-label">
+            <label>Enter FirstName : </label>
+        </div>
+        <input type="text" class="form-control" name="firstName" ng-model="students.firstName">
+    </div>
+    <div class="form-group">
+        <div class="control-label">
+            <label>Enter LastName : </label>
+        </div>
+        <input type="text" class="form-control" name="lastName" ng-model="students.lastName">
+    </div>
+    <div class="form-group">
+        <div class="control-label">
+            <label>Enter RollNo : </label>
+        </div>
+        <input type="text" class="form-control" name="rollNo" ng-model="students.rollNo">
+    </div> 
+    <div class="form-group">
+        <div class="control-label">
+            <label>Enter class : </label>
+        </div>
+        <input type="text" class="form-control" name="lastName" ng-model="students.class">
+    </div>
+    <div class="form-group">
+        <div class="form-control">
+            <label>FullName :</label>
+        </div>
+        {{student.fullName()}}
+    </div>   
+</form>
